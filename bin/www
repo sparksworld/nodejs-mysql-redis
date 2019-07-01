@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+const http = require('http');
+const serveHandle = require('../app')
+
+const serve = http.createServer(serveHandle)
+
+serve.listen(3000, (err) => {
+    console.log("success! serve is running port 3000")
+})

@@ -1,0 +1,23 @@
+{
+  "name": "create-node-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon --inspect bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.2.0"
+  },
+  "dependencies": {
+    "md5": "^2.2.1",
+    "multiparty": "^4.2.1",
+    "mysql": "^2.17.1",
+    "redis": "^2.8.0",
+    "bcrypt": "^3.0.6"
+  }
+}
